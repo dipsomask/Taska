@@ -9,9 +9,12 @@ Includes functions:
   ~ time explanation
   ~ explanation of her capabilities
   ~ I announced a music playback block in the configs, but I never started doing it
-
-  !For installing needs libraries run setup_libraries file!
-  The version work on background process and runs in the console. 
+Installation:
+  for libraries run setup_libraries file
+  for authoran this voice assistant at starting Windows collect authorun file to your authoran directory
+  !IN BOTH FILES, REPLACE "[ ]" WITH THE DESIRED PATH!
+  
+The version work on background process and runs in the console. 
 # In the next versions
   I want to make graphical interface
   or bring her at least to some decent appearance and add some more functional.
