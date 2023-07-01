@@ -9,7 +9,8 @@ Includes functions:
   ~ time explanation
   ~ explanation of her capabilities
   ~ I announced a music playback block in the configs, but I never started doing it
-  
+
+  !For installing needs libraries run setup_libraries file!
   The version work on background process and runs in the console. 
 # In the next versions
   I want to make graphical interface
