@@ -3,8 +3,8 @@
 This is a voice assistant, so far limited to the computer, I have decided not to go into phone applications yet.  
 Performs basic functions that will be refined by itself.  
 
-# INSTALLATION  
-!IN ALL INSTALLETION FILES, REPLACE "[ ]" WITH THE DESIRED PATH! 
+# INSTALLATION
+!IN ALL INSTALLETION FILES, REPLACE "[ ]" WITH THE DESIRED PATH!  
   For versions - 0.1, 1.0:  
     ~ run setup_libraries.bat file  with your changes
     ~ place collect authorun.bat file to your authoran directory to automatically turn on the voice assistant when windows is turned on.       
