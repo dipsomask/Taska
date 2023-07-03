@@ -25,3 +25,5 @@ def listen(callback):
             data = q.get()
             if rec.AcceptWaveform(data):
                 callback(rec.Result())
+            else:
+                print(rec.PartialResult())

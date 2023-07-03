@@ -1,4 +1,4 @@
-import torch# .....................надо доработать СТОП фразу
+import torch                           # надо доработать СТОП фразу
 import sounddevice as sd
 import time
 
@@ -12,7 +12,7 @@ device = torch.device('cpu')  # cpu/gpu
 
 model, _ = torch.hub.load(repo_or_dir='snakers4/silero-models',
                           model='silero_tts',  # tts - text to speach
-                          language=language,  # stt - speach to text (bad-working with ru)
+                          language=language,
                           speaker=model_id)
 model.to(device)
 
@@ -25,18 +25,17 @@ def speak(what: str):
                             put_accent=put_accent,
                             put_yo=put_yo)
 
-    #sd.play(audio, sample_rate)
-    #while sd.get_stream().active:# надо доработать
-    #    if "стоп" in what.lower():
-    #        sd.stop()
-    #        break
-    #sd.stop()
-    #sd.wait()
     sd.play(audio, sample_rate)
     time.sleep((len(audio) / sample_rate) + 0.5)
     sd.wait()
     sd.stop()
 
+
+# Not working block with stop phrase
 # sd.play(audio, sample_rate)
-# time.sleep(len(audio) / sample_rate)
-# sd.stop()
+    # while sd.get_stream().active:# надо доработать
+    #     if "стоп" in what.lower():
+    #         sd.stop()
+    #         break
+    # sd.stop()
+    # sd.wait()
