@@ -6,8 +6,8 @@ Performs basic functions that will be refined by itself.
 # INSTALLATION
 !IN ALL INSTALLETION FILES, REPLACE "[ ]" WITH THE DESIRED PATH!  
   For versions - 0.1, 1.0:  
-    ~ run setup_libraries.bat file  with your changes
-    ~ place collect authorun.bat file to your authoran directory to automatically turn on the voice assistant when windows is turned on.       
+    ~ run setup_libraries.bat file  with your changes  
+    ~ place collect authorun.bat file to your authoran directory to automatically turn on the voice assistant when windows is turned on  
 
 # (Pre)Version - 0.1
 Includes functions:  
